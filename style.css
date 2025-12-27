@@ -24,9 +24,9 @@
     }
     
     .sum {
-        height: 104vh;
+        height: 580px;
         width: 320px;
-        background-color: rgba(0, 4, 255, 0.226);
+     background-color: rgba(0, 4, 255, 0.226); 
     }
 
     .n {
@@ -43,7 +43,7 @@
     }
 
     .acheivements2 p {
-        top: 10px;
+        top: -11px;
         left: 70px;
         text-decoration: underline;
         text-align: center;
@@ -58,21 +58,21 @@
     .acheivements span:first-child {
         text-align: center;
         position: absolute;
-        top: 40px;
+        top: 20px;
         left: 73px;
     }
 
     .acheivements span:nth-child(2) {
         text-align: center;
         position: absolute;
-        top: 127px;
+        top: 108px;
         left: 43px;
     }
 
     .acheivements span:nth-last-child(4) {
         text-align: center;
         position: absolute;
-        top: 220px;
+        top: 195px;
         left: 20px;
     }
 
@@ -80,24 +80,23 @@
         left: 79px;
         position: absolute;
         text-align: center;
-        top: 313px;
+        top: 287px;
     }
 
     .acheivements span:nth-last-child(2) {
         position: absolute;
         text-align: center;
-        top: 400px;
+        top: 380px;
         left: 30px;
     }
 
     .acheivements span:nth-last-child(1) {
         position: absolute;
         text-align: center;
-        top: 491px;
+        top: 470px;
         left: 22px;
     }
 
-    /* .btn :first-child { */
     button {
         background-color: #ff0000de; 
         border: none; 
@@ -120,5 +119,79 @@
         background-color: #ff0000c0;
         cursor: pointer;
     }
-    
+
+    /* General Layout Styles  */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Typography and Header [cite: 3, 4] */
+#title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#tribute-info {
+    margin-top: 20px;
+}
+
+/* Image Handling (Responsive) [cite: 4, 8] */
+#img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+}
+
+#image {
+    display: block;
+    max-width: 100%; /* Ensures image stays within container  */
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#img-caption {
+    text-align: center;
+    font-style: italic;
+    padding: 10px 0;
+}
+
+/* Responsive Media Queries  */
+@media (max-width: 600px) {
+    #main {
+        width: 95%;
+        margin: 10px auto;
+        padding: 15px;
+    }
+
+    #title {
+        font-size: 1.8rem; /* Shrinks font for smaller screens [cite: 4] */
+    }
+
+    /* Stack list items or sections if necessary  */
+    ul {
+        padding-left: 20px;
+        text-align: left;
+    }
+}
+
+/* Detail Page Specifics [cite: 1] */
+.detail-section {
+    padding: 20px;
+}
   
