@@ -1,0 +1,124 @@
+
+    .info {
+        background-color: #00203F;
+        color: white;
+        height: 43vh;
+        width: 50vw;
+        padding: 170px;
+        margin-left: 320px;
+    }
+    
+    .img {
+        position: absolute;
+        right: 650px;
+        top: 150px;
+        overflow: hidden;
+    }
+    
+    .img img{
+        transition: all ease 1s ;
+    }
+    
+    .img:hover img{
+        scale: 1.2;
+    }
+    
+    .sum {
+        height: 104vh;
+        width: 320px;
+        background-color: rgba(0, 4, 255, 0.226);
+    }
+
+    .n {
+        color: white;
+        position: absolute;
+        top: 100px;
+        padding-left: 830px;
+    }
+
+    .info p {
+        line-height: 150%;
+        padding-left: 220px;
+        text-align: center;
+    }
+
+    .acheivements2 p {
+        top: 10px;
+        left: 70px;
+        text-decoration: underline;
+        text-align: center;
+        position: absolute;
+
+    }
+
+    .acheivements span {
+        font-size: small;
+    }
+
+    .acheivements span:first-child {
+        text-align: center;
+        position: absolute;
+        top: 40px;
+        left: 73px;
+    }
+
+    .acheivements span:nth-child(2) {
+        text-align: center;
+        position: absolute;
+        top: 127px;
+        left: 43px;
+    }
+
+    .acheivements span:nth-last-child(4) {
+        text-align: center;
+        position: absolute;
+        top: 220px;
+        left: 20px;
+    }
+
+    .acheivements span:nth-last-child(3) {
+        left: 79px;
+        position: absolute;
+        text-align: center;
+        top: 313px;
+    }
+
+    .acheivements span:nth-last-child(2) {
+        position: absolute;
+        text-align: center;
+        top: 400px;
+        left: 30px;
+    }
+
+    .acheivements span:nth-last-child(1) {
+        position: absolute;
+        text-align: center;
+        top: 491px;
+        left: 22px;
+    }
+
+    /* .btn :first-child { */
+    button {
+        background-color: #ff0000de; 
+        border: none; 
+        border-radius: 6px; 
+        line-height: 48px;
+         padding: 0 14px;
+         width: 150px;
+         text-align: center;
+         position: absolute;
+         bottom: 80px;
+         right: 260px; 
+        }
+    
+    button a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    button:hover{
+        background-color: #ff0000c0;
+        cursor: pointer;
+    }
+    
+  
