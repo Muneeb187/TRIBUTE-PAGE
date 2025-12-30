@@ -5,8 +5,3 @@ if (answer && answer.toLowerCase() === "yes") {
 } else {
   alert("Welcome");
 }
-
-
-document.getElementById('myButton').onclick = function() {
-  window.location.href = 'detail.html'; 
-};
