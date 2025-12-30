@@ -1,0 +1,104 @@
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url("https://tse2.mm.bing.net/th/id/OIP.lDrKs5f_RaWIMN_o2RgbowHaEJ?pid=Api&h=220&P=0");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      padding: 20px;
+    }
+
+    .profile-card {
+      max-width: 700px;
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(8px);
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .profile-card h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+      color: #ffd700;
+    }
+
+    .profile-card h3 {
+      font-weight: 400;
+      margin-bottom: 20px;
+      color: #e0e0e0;
+    }
+
+    .profile-card p {
+      line-height: 1.7;
+      margin-bottom: 15px;
+      font-size: 1rem;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .stat-box {
+      background: rgba(0, 0, 0, 0.35);
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .stat-box h4 {
+      color: #ffd700;
+      margin-bottom: 5px;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 10px 25px;
+      background: #ffd700;
+      color: #000;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+
+    .back-btn:hover {
+      background: #fff;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 480px) {
+      .profile-card h1 {
+        font-size: 1.7rem;
+      }
+    }
+ 

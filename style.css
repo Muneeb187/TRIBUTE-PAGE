@@ -119,4 +119,34 @@
         background-color: #ff0000c0;
         cursor: pointer;
     }
-    
+    @media (max-width: 768px) {
+  .info {
+    padding: 20px;
+  }
+
+  .img img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* responsivness */
+
+
+/* Mobiles */
+
+@media (max-width: 480px) {
+  .img img {
+    width: 170px;
+    height: 170px;
+  }
+
+  .info {
+    width: 100%;
+    padding: 18px;
+  }
+
+  .acheivements2 p {
+    font-size: 18px;
+  }
+}
