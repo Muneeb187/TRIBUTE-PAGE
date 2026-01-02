@@ -119,34 +119,78 @@
         background-color: #ff0000c0;
         cursor: pointer;
     }
-    @media (max-width: 768px) {
-  .info {
-    padding: 20px;
+   
+
+
+/* =========================
+   MOBILE RESPONSIVENESS
+   ========================= */
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
   }
 
-  .img img {
-    width: 200px;
-    height: 200px;
-  }
-}
-
-/* responsivness */
-
-
-/* Mobiles */
-
-@media (max-width: 480px) {
-  .img img {
-    width: 170px;
-    height: 170px;
+  /* Main container / section */
+  .main,
+  .container,
+  .section,
+  .hero {
+    flex-direction: column !important;
+    width: 100% !important;
   }
 
-  .info {
-    width: 100%;
-    padding: 18px;
+  /* Left Achievements Section */
+  .achievements,
+  .left,
+  .left-section {
+    width: 100% !important;
+    padding: 20px !important;
+    text-align: center;
   }
 
-  .acheivements2 p {
-    font-size: 18px;
+  .achievements h2,
+  .achievements h3,
+  .achievements p {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  /* Right Content Section */
+  .right,
+  .right-section,
+  .content {
+    width: 100% !important;
+    padding: 20px !important;
+    text-align: center;
+  }
+
+  .right p,
+  .content p {
+    font-size: 14px;
+    line-height: 1.6;
+    word-break: normal;
+    white-space: normal;
+  }
+
+  /* Fix vertical text issue */
+  .right *,
+  .content * {
+    writing-mode: horizontal-tb;
+  }
+
+  /* Read More Button */
+  .read-more,
+  button {
+    margin: 15px auto;
+    display: block;
+    width: 70%;
+    font-size: 14px;
+  }
+
+  /* Images (if any) */
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }

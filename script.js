@@ -5,3 +5,4 @@ if (answer && answer.toLowerCase() === "yes") {
 } else {
   alert("Welcome");
 }
+
